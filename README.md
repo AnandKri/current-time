@@ -1,4 +1,4 @@
-**[current-time]**(https://anandkri.github.io/current-time/) shows the following information about the user:
+[current-time](https://anandkri.github.io/current-time/) shows the following information about the user:
 
 1. Timezone
 2. Time
