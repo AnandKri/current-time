@@ -1,11 +1,22 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Current Time</title>
+    <title>Date and Time</title>
+    <script src="node_modules/dayjs/dayjs.min.js"></script>
+    <script src="node_modules/dayjs/plugin/utc.js"></script>
+    <script src="node_modules/dayjs/plugin/timezone.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
 </head>
 <body>
-    
+    <script>dayjs.extend(window.dayjs_plugin_utc)</script>
+    <script>dayjs.extend(window.dayjs_plugin_timezone)</script>
+    <div class="container">
+        <span class="timezone" id="timezone"></span>
+        <span class="time" id="time"></span>
+        <span class="date" id="date"></span>
+    </div>
 </body>
 </html>

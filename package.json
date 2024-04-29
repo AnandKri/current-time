@@ -1,5 +1,15 @@
 {
+  "name": "current-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "node index"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "dayjs": "^1.11.10"
+    "dayjs": "^1.11.11"
   }
 }
